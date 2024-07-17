@@ -1,0 +1,63 @@
+# Log
+
+- What Really Happens When You Run hello_world.py
+  - The Python interpreter reads the file and runs the code.
+- **Variables**
+  - _Rules_
+    - Underscores in names
+  - Are like labels for data
+  - _Multiple assignment_
+    - separate the variables and values with commas
+  - _Contants_
+    - Capital letters
+    - Python doesn't have constants, but it's a convention
+- **Erros**
+  - Traceback
+    - The traceback is the error message that Python interpreter spits out when it encounters an error.
+  - NameError
+  - SyntaxError
+-
+- **Try it yourself**
+  - 2.1 Write a script that print a message variable
+  - 2.2 Same, but then change the value of the variable and print it again
+- Filename conventions
+- **Types**
+  - **Strings**
+    - Everithing between quotes ´"´ or ´'´.
+    - **Changing case**
+      - ´title()´
+      - ´upper()´
+      - ´lower()´
+    - **Using variables in strings**
+      - f-string: format string
+    - tabs and newlines
+      - \t
+      - \n
+    - Stripping whitespace: deleting extra spaces
+      - ´rstrip()´: right strip
+      - ´lstrip()´: left strip
+      - ´strip()´: strip both sides
+    - Removing prefixes and suffixes
+      - ´removeprefix(<string to remove>)´
+      - ´removesuffix(<string to remove>)´
+    - Avoiding Syntax Errors with Strings
+      - When use single quotes inside double quotes be careful with the apostrophe.
+    - **Try it yourself**
+      - 2.3, 2.4, 2.5, 2.6, 2.7 and 2.8.
+  - **Numbers**
+    - operations: +, -, *, /, **, %, //
+    - _Integers_
+    - _Floats_
+    - Mix of integers and floats results in a **float**
+    - Underscores in numbers
+      - 1_000_000 = 1000000
+    - Try it Yourself
+      - 2.9, 2.10
+
+- **Comments**
+  - lines with ´#´ are ignored by the interpreter
+  - Try it Yourself
+    - 2-11 in exercise10_numerical.py
+
+- **The Zen of Python**
+  -
