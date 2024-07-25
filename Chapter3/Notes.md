@@ -1,0 +1,56 @@
+# Log
+
+- **What Is a List?**
+  - Syntax: `[]`
+  - Ordered collection of items
+  - Mutable
+  - Dynamic
+  - You can use elements as well as variables
+  - **Accessing Elements in a List**
+  - **Index Positions**
+    - Index starts at 0
+    - Negative index starts at -1
+
+- **Modifying, Adding, and Removing Elements**
+  - Syntax: `list_name[index] = new_value`
+  - **Adding Elements**
+    - Syntax: `list_name.append(value)`
+      - Add elements to the end of the list
+    - Syntax: `list_name.insert(index, value)`
+      - Add elements at a specific position
+  - **Removing Elements**
+    - `del list_name[index]`
+    - `list_name.pop()`
+      - Remove the last element
+      - Return the removed element
+      - Also, you can specify the index.
+    - `list_name.remove(value)`
+      - Remove the first occurrence of the value
+      - Only removes the first occurrence
+
+- **Organizing a List**
+  - You can't sort a list that contains both numbers and strings.
+  - Alphabetic order is case sensitive. So if all values are not in lowercase the sorting is different.
+  - **Sorting a List Permanently with the sort() method**
+    - Syntax: `list_name.sort()`
+      - Sort the list in alphabetical order
+      - Sort the list in reverse alphabetical order
+      - Sort the list in numerical order
+      - Sort the list in reverse numerical order
+  - **Sorting a List Temporarily with the sorted() function**
+    - Syntax: `sorted(list_name)`
+      - Also you can use the `reverse` parameter
+  - **Printing a List in Reverse Order**
+    - Syntax: `list_name.reverse()`
+      - Reverse the order of the original list
+  - **Finding the length of a List**
+    - Syntax: `len(list_name)`
+
+- **Avoiding Index Errors When Working with Lists**
+  - **IndexError**
+    - Occurs when you try to access an index that doesn't exist
+    - **Avoiding Index Errors**
+      - **Using the -1 Index**
+        - Access the last element in a list
+      - **Using the -2 Index**
+        - Access the second-to-last element in a list
