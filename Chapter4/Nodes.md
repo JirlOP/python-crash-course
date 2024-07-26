@@ -1,0 +1,55 @@
+# Log
+
+- **Looping through an Entire List**
+  - for loop: ```for <variable> in <list>:```
+  - variable only exists within the loop
+- **Avoiding Identation Errors**
+  - for needs to be followed by a **colon** and the loop needs to be indented
+  - Python throw and identation error if the loop is not indented and if there is identation where it should not be
+- **Making Numerical Lists**
+  - **Using the range() Function**
+    - Syntax: ```range(start, end, step)```
+  - **Use range() to Make a List**
+    - Syntax: ```list(range(start, end, step))```
+    - Or within a for loop to generate a list with append and desired values
+  - **Simple Stadistics with a List of Numbers**
+    - min, max and sum functions: take the values of the list as arguments.
+  - **List Comprehensions**
+    - Is the same of a for loop but in one line
+    - Syntax: ```var = [<expression> for <variable> in <list>]```
+- **Working with Part of a List**
+  - **Slicing a List**
+    - Syntax: ```<list>[start:end]```
+    - If start is not defined, it starts from the beginning
+    - If end is not defined, it goes to the end
+    - Both can be empty, to get the whole list
+    - Can also use negative indexes
+  - **Looping through a Slice**
+    - I can loop through a slice of a list using the slice syntax
+    - To loop in a subset of the list
+  - **Copyng a list**
+    - with the `=` operator, and ``[:]`` to copy the whole list
+    - If we only use the `=` operator, we are only copying the reference to the list, although the list is the same. So is the same list with two names.
+- **Tuples**
+  - Not mutable lists
+  - Syntax: ```<tuple> = (<value1>, <value2>, <value3>)```
+  - If need a tuple with only one element, need to add a comma after the value
+    - ```<tuple> = (<value>,)```
+  - The loop is the same as a list
+  - We can redifine the whole tuple, but not the values
+- **Styling Your Code**
+  - Python Conventions.
+  - **The Style Guide**
+    - PEP: Python Enhancement Proposals
+      - Python is meant to be readable
+      - We actually use PEP 8
+  - **Identation**
+    - 4 spaces
+    - Use spaces instead of tabs
+    - Parameters at the same vertical line
+  - **Line Lenght**
+    - 80 for code and 72 for comments, but even 100 is fine
+  - **Blank Lines**
+    - To separate parts of the code between sections
+  - Link to the PEP 8: https://pep8.org/
+  - https://python.org/dev/peps/pep-0008
