@@ -1,0 +1,50 @@
+# Log Dictionaries
+
+- **Working with Dictionaries**
+  - It is like a JSON.
+  - key-value pairs
+  - Mutable
+  - key can be any immutable type
+  - Retain order when defined
+  - braces {} for dictionaries
+    - Syntax: {key1: value1, key2: value2, ...}
+  - **Accessing**
+    - Syntax: dict[key]
+    - Causes KeyError if key not found
+  - **Adding New Pairs**
+    - Syntax: dict[key] = value
+  - **Empty Dictionary**
+    - Syntax: dict = {}
+  - **Modify Values**
+    - Syntax: dict[existingkey] = new_value
+  - **Removing Pairs**
+    - Syntax: del dict[key]
+  - **A Dictionary of Similar Objects**
+    - New line for each new pair.
+  - **Using get() to access values**
+    - Syntax: dict.get(key)
+    - Returns ``None`` if key not found or default value if specified
+      - Syntax: dict.get(key, default)
+- **Looping Through a Dict**
+  - **Looping Through All Pairs**
+    - Syntax: ``for key, value in dict.items():``
+  - **Looping Through All the Keys**
+    - Syntax: ``for key in dict.keys():``
+      - keys also works as condition in if statement
+      - Syntax: ``if key in dict.keys():``
+    - It is the def behaviour, so we can only use dict in the loop. But is better implicit.
+  - **Looping Through a Dictionary's Keys in a Particular Order**
+    - You can use ``sorted()`` to get a copy of the keys in order.
+  - **Looping Through All Values**
+    - Syntax: ``for value in dict.values():``
+    - To see each value only once, use a set. `set(dict.values())`
+    - Set
+      - Syntax: ``set = {value1, value2, ...}``
+- **Nesting**
+  - You should not nest list and dictionaries too deeply. If someone does, it is a better way to solve the problem.
+  - **A List of Dictionaries**
+    - If we create the same object multiple times, and append to a List, each object is different for Python.
+  - **A List in a Dictionary**
+  - **A Dictionary in a Dictionary**
+    - Can be confusing.
+
