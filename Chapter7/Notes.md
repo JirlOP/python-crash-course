@@ -1,0 +1,40 @@
+# Log User Input And While Loops
+
+- **How the input() Function Works**
+  - Pauses the program and waits until ENTER is pressed.
+  - Take a prompt as an argument.
+  - String is returned.
+  - **Writing Clear Prompts**
+    - If have a large input, use ``var += prompt`` to make large prompts.
+  - **Using int() to Accept Numerical Input**
+    - Just cast the input to an integer.
+  - **The modulo Operator**
+    - `%`
+    - To find even or odd numbers.
+    - To do a circular list.
+  - **Introducing while loops**
+    - Run while is true
+    - **The while loop in action**
+    - **Letting the User Choose when to quit**
+      - Python doens't run the program if we compare a string that not was initialized. For example, if the user use ENTER without typing anything, the program will crash.
+      - So initialize the variable with a empty string before.
+    - **Using a Flag**
+      - I preder this way, because let the code be versatile.
+      - And is testable.
+    - **Using break to Exit a Loop**
+      - While always is true, but we can use a break to exit the loop.
+      - In any loop.
+    - **Using continue in a Loop**
+      - Skip the rest of the loop and go to the next iteration.
+- **Using a while loop with lists and dictionaries**
+  - **Moving Items from One List to Another**
+    - Syntax: `while list1:`
+      - Run until the list is empty.
+      - Use `pop()` to remove the last item from the list.
+  - **Removing All Instances of Specific Values from a List**
+    - Erase all the intances of a repeated value.
+    - Use while loop with remove of the value.
+      - Syntax: `while 'value' in list:` with `list.remove('value')`
+  - **Filling a Dictionary with User Input**
+    - Use a while loop to populate a dictionary with user input.
+    - Works to add messages to designated users.
