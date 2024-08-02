@@ -64,6 +64,7 @@
       def function_name(**parameter_name):
       ```
     - Makes a dictionary of the arguments.
+    - Call: `function_name(key=value, key=value)`
 
 - **Storing Your Functions in Modules**
   - Use other files to store functions.
